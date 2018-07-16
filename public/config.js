@@ -1,3 +1,3 @@
-window.prodBaseUrl = "http://irisk.i-cbao.com";
-window.devBaseUrl = "http://192.168.0.252:2022";
+window.prodBaseUrl = "http//:prod.com";
+window.devBaseUrl = "htto://dev.com";
 window.env = "dev"
