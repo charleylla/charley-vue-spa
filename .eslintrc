@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/essential"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "rules": {
+    "comma-dangle": ["warn", "always-multiline"],
+    "indent": ["warn", 2],
+    "linebreak-style": ["off"],
+    "quotes": ["warn", "double"],
+    "semi": ["warn", "always"],
+    "no-unused-vars": ["warn"],
+    "no-console":["off"],
+    "no-constant-condition": ["error", { "checkLoops": false }]
+  }
+}
